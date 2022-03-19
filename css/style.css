@@ -116,13 +116,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 		    }
 .autor{
 	border: solid 1px black;
-	width: 120px;
-	height: 60px;
+	width: 100px;
+	height: 35px;
 	text-align: center;
-	color: white;
 	background: blue;
 	margin: 20px 0 0 20px;
+	border-radius: 10px
+	padding: 17px 0 0 0;
 }
+	.autor a{
+		color: white;
+	}
 .autor:hover{
-	transform: scale(1.2);
+	transform: scale(1.8);
 }
