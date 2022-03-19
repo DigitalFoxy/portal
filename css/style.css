@@ -114,3 +114,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 		    	color: black;
 		    	transform:scale(1.1);
 		    }
+.autor{
+	border: solid 1px black;
+	width: 120px;
+	height: 60px;
+	text-align: center;
+	color: white;
+	background: blue;
+	margin: 20px 0 0 20px;
+}
+.autor:hover{
+	transform: scale(1.2);
+}
